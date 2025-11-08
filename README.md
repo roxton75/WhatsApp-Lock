@@ -72,13 +72,13 @@ python main.py
 1. Build executable:
 
    ```bash
-   pyinstaller --noconsole --onefile --add-data "ui/assets;ui/assets" --add-data "pass.txt;." main.py
+      pyinstaller --noconsole --onefile --add-data "ui/assets;ui/assets" --add-data "pass.txt;." main.py
    ```
 
 2. Place shortcut of the generated `.exe` in (Startup Folder):
 
    ```
-   Win + R → shell:startup     
+      Win + R → shell:startup     
    ```
    
 3. If the above method doesn't work then try:
