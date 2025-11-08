@@ -88,35 +88,35 @@ python main.py
 
    To make WhatsApp Lock launch automatically when you log in to Windows, set it up using Task Scheduler.
   
-   1) Open Task Scheduler
+1) Open Task Scheduler
         ```
          Win + R → taskschd.msc → Enter
         ```
-   2) Create a New Task     
+2) Create a New Task     
         - Click Action → Create Task
         - Name it: `WhatsApp Lock`
         - Enable:
             ✅ Run only when user is logged on
             ✅ Run with highest privileges
-   3) Add Trigger      
+3) Add Trigger      
         - Go to the Triggers tab → New
         - Begin the task: At log on
         - User: Select your account
         - Click OK      
-   4) Add Action      
+4) Add Action      
         - Go to the Actions tab → New
         - Action: Start a program
         - Program/script: Select your .bat launcher file
         - Click OK
-   5) Adjust Conditions (Important for Laptops) 
+5) Adjust Conditions (Important for Laptops) 
         - Go to the Conditions tab
         - Uncheck:
           Start only if the computer is on AC power 
-   6) Save 
+6) Save 
         - Click OK
         - Close Task Scheduler
   
-    ✅ Now WhatsApp Lock will automatically run silently every time you log in.
+  ✅ Now WhatsApp Lock will automatically run silently every time you log in.
 
 ---
 
