@@ -96,8 +96,8 @@ python main.py
         - Click Action → Create Task
         - Name it: `WhatsApp Lock`
         - Enable:
-            ✅ Run only when user is logged on
-            ✅ Run with highest privileges
+            - ✅ Run only when user is logged on
+            - ✅ Run with highest privileges
   3) Add Trigger      
         - Go to the Triggers tab → New
         - Begin the task: At log on
