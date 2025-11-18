@@ -3,6 +3,8 @@
 A clean and seamless **overlay lock screen** for WhatsApp Desktop, built using **Python + CustomTkinter**.  
 Protects your chats whenever WhatsApp is opened in the foreground.
 
+**Note:** This was buid before the WhatsApp Added their in app "App-Lock Feature". 
+
 ---
 
 ## ✨ Features
